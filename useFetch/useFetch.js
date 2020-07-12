@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
 
-//https://www.breakingbadapi.com/api/quotes/1
 
 export const useFetch = url => {
   const [state, setState] = useState({ data: null, loading: true, erro: null });
